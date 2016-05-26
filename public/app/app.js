@@ -28,7 +28,23 @@ var app = angular.module('fundMe', [
     })
     .state('project1', {
       url: '/project1',
-      templateUrl: 'app/projects/project1/project1.html',
-      controller: 'Project1Ctrl'
+      views: {
+        '': {
+          templateUrl: 'app/projects/project1/project1.html',
+          controller: 'Project1Ctrl'
+        },
+        'about@project1': {
+          templateUrl: 'app/projects/project1/project1.about.html',
+          controller: 'Project1AboutCtrl'
+         },
+        'raised@project1': {
+          templateUrl: 'app/projects/project1/project1.raised.html',
+          controller: 'Project1RaisedCtrl'
+        },
+        'donate@project1': {
+          templateUrl: 'app/projects/project1/project1.donate.html',
+          controller: 'Project1DonateCtrl'
+        }
+      }
     });
 });

@@ -77,32 +77,16 @@ h3, h4 {
   text-align: center;
 }
 
+.section-padding: {
+  padding-top: 20px;
+}
+
 .title {
   text-align: center;
 }
 
-.logo {
-  float: left;
-  width: 60%;
-  border: 1px solid #e7e7e7;
-  background: white;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.statistics {
-  float: right;
-  width: calc(40% - 20px);
-  margin: 20px 0 0 20px;
-}
-
-.description {
-  clear: both;
-  padding-top: 20px;
-}
-
-.prizes {
-  padding-top: 20px;
+.flex-box {
+  display: flex;
 }
 
 .bigger {

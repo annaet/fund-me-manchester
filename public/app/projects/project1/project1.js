@@ -8,7 +8,16 @@
  * Controller of the fundmeApp
  */
 angular.module('fundMe')
-  .controller('Project1Ctrl', function ($scope, send) {
+  .controller('Project1Ctrl', function ($scope) {
+  })
+
+  .controller('Project1AboutCtrl', function ($scope) {
+  })
+
+  .controller('Project1RaisedCtrl', function ($scope) {
+  })
+
+  .controller('Project1DonateCtrl', function ($scope, send) {
     $scope.sendBronze = function() {
       send.bronze();
     };
