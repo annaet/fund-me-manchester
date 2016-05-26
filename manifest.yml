@@ -1,0 +1,13 @@
+---
+# manifest.yml for fund-me
+# edit for your needs
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  framework: node
+  domain: mybluemix.net
+  name: fundMe
+  host: fund-me
+  disk_quota: 1024M
+  command: npm start
