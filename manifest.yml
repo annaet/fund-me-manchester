@@ -7,7 +7,7 @@ applications:
   instances: 1
   framework: node
   domain: mybluemix.net
-  name: fundMe
-  host: fund-me
+  name: fund-me-manchester
+  host: fund-me-manchester
   disk_quota: 1024M
   command: npm start
