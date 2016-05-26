@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  font-weight: normal;
+}
+
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.body {
+  background: #F8F7F9;
+  padding: 20px 0;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1020px;
+  }
+}
+
+a {
+  font-weight: 200;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: 200;
+}
+
+h1 {
+  color: #53585F;
+}
+
+h3, h4 {
+  color: #164F86;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  width: 60%;
+  border: 1px solid #e7e7e7;
+  background: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.statistics {
+  float: right;
+  width: calc(40% - 20px);
+  margin: 20px 0 0 20px;
+}
+
+.description {
+  clear: both;
+  padding-top: 20px;
+}
+
+.prizes {
+  padding-top: 20px;
+}
+
+.bigger {
+  font-size: 40px;
+  font-weight: 200;
+  color: #444;
+}
+
+.projects {
+  margin: 0 -1.5% 0 -3%;
+}
+
+.tile {
+  width: 30%;
+  background: white;
+  border: 1px solid #e7e7e7;
+  height: 300px;
+  float: left;
+  margin: 0 0 3% 3%;
+}
+
+.tile:hover {
+  cursor: pointer;
+}
+
+.tile:hover a {
+  text-decoration: underline;
+}
+
+.project-name {
+  padding: 20px;
+  height: 200px;
+}
+
+.project-team {
+  padding: 20px;
+  border-top: 1px solid #e7e7e7;
+}
+
+.clear {
+  clear: both;
+}
+
+.square , .circle, .rounded {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  line-height: 200px;
+  color: white;
+  font-size: 42px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 200px;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+.bronze {
+  background-color: #FAC087;
+}
+
+.bronze:hover {
+  background-color: #E7A76D;
+}
+
+.silver {
+  background-color: #DEDEDE;
+}
+
+.silver:hover {
+  background-color: #C8C8C8;
+}
+
+.gold {
+  background-color: #FAD36C;
+}
+
+.gold:hover {
+  background-color: #EAC054;
+}
