@@ -1,12 +1,12 @@
 <div class="center">
-  <h1>ThinkIT 2016</h1>
+  <h1>Think.IT 2016</h1>
   <h3>Projects</h3>
 </div>
 
 <hr>
 
 <div class="projects">
-  <div ng-repeat="project in projects" ui-sref="project1" class="tile">
+  <div ng-repeat="project in projects" ui-sref={{project.team}} class="tile">
     <h2 class="project-name">
       {{project.name}}
     </h2>
